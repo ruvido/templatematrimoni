@@ -1,0 +1,203 @@
+.center {
+	text-align: center;
+}
+
+#menu a {
+	font-size: 1.em;
+	text-decoration:none;
+    color: 			#F2F2F2;
+}
+
+
+#menu li.tight {
+	margin:		0;
+	padding:	1em;
+}
+#menu ul {
+	margin: 		0;
+	padding: 		1em 0 2em 0;
+	border-top: 	6px solid #B7F200;
+	border-bottom: 	6px solid #B7F200;
+}
+#menu li {
+	margin: 		0em;
+	padding: 		1.0em;
+	list-style-type: none;
+	border-bottom: 	1px solid #000000;	
+}
+
+#menu li:hover {
+    background:		#555555;	
+	color:		#B7F200;
+	
+}
+
+.menu-popup {
+  position: relative;
+  width: auto;
+  max-width: 		350px;
+  margin: 			20px auto;
+  font-family:		'Raleway', sans-serif;
+  font-size: 		1.5em;
+  font-weight: 		500;
+  color: 			#F2F2F2;
+  background:		#333333;
+}
+
+.darken {
+	opacity: 0.1;	
+}
+
+.darken:hover {
+	opacity: 0.2;	
+}
+
+.tinted:hover {
+	opacity: 0.8;	
+}
+
+.main {
+	font-family:	'Raleway', sans-serif;
+	font-size: 		1.6em;
+	font-weight: 	300;
+	color: 			#4D4D4D;
+	text-align:center;
+}
+
+/*
+.main .hide-pagination  {
+	background: 	red;
+	height: 		100px;
+	width:			40px;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	z-index: 100;
+}
+*/
+
+.centerline {
+	position: absolute;
+	margin-left: 50%;
+	height: 100%;
+	width: 1px;
+	background: red;
+}
+
+.header {
+	position: absolute;
+	top: 1em;
+	left: 50%;
+	margin-left: -30px;
+	height: 60px;
+	width:  60px;
+	overflow:hidden; /* this is important */
+/*	border:1px solid #ccc;*/
+	/*margin: 1em auto;*/
+}
+
+.footer {
+	position: absolute;
+	bottom: 1em;
+	left: 50%;
+	margin-left: -30px;
+	height: 60px;
+	width:  60px;
+	overflow:hidden; /* this is important */
+}
+
+.menu {
+	margin-left: 0;
+}
+
+
+.downarrow {
+	margin-left: -70px;
+}
+
+.uparrow {
+	margin-left: -141px;
+}
+
+.menulight {
+	margin-left: -212px;
+}
+
+
+.downarrowlight {
+	margin-left: -285px;
+}
+
+.gray{
+	width:			60px;
+	height:			60px;
+	border-radius:	30px;
+	line-height:	60px;
+	background:		#E6E6E6;
+	margin: 0 auto;
+}
+
+h1 {
+	width:			80%;
+    position: 		absolute;
+    top: 			15%;
+	left:  			0;
+	right: 			0;
+	margin: 		auto;
+	font-size: 		1.6em;
+	font-family:	'Raleway', sans-serif;
+	font-weight: 	300;
+}
+
+
+/*---------------------------------*/
+
+
+.main section.page1 h1 {
+    top: 			45%;
+	font-size: 		2.0em;
+}
+
+.main section.page1 h1 .qm {
+	display: 		inline-block;
+	width:			100px;
+	height:			100px;
+	border-radius:	50px;
+	line-height:	100px;
+	color:			#fff;
+	text-align:		center;
+	background:		#B8D433;	
+	font-weight: 	500;
+}
+
+
+.main section.page1 {
+	height: 100%;
+	background: white;
+
+}
+
+/*---------------------------------*/
+
+.main section.page2 {
+	height: 		100%;
+	background: 	#B8D433;
+	color: 			white;
+}
+
+/*---------------------------------*/
+
+
+.main section.page3 {
+	height: 100%;
+	background: white;
+
+}
+
+/*---------------------------------*/
+
+.main section.page4 {
+	height: 100%;
+	background: white;
+
+}

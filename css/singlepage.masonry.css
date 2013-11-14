@@ -1,0 +1,98 @@
+.center {
+	text-align: center;
+}
+
+h1, h2, h3 {
+	font-weight: 	300;
+	color: 			#4D4D4D;
+	margin:			0;
+	padding:		0;
+}
+h1 { font-size: 3.0em;}
+h2 { font-size: 2.0em; }
+h3 { font-size: 1.5em; }
+
+
+body {
+	font-family:	'Raleway', sans-serif;
+	font-size: 		1.0em;
+	font-weight: 	300;
+	color: 			#4D4D4D;
+	margin:			0;
+	padding:		0;
+}
+
+#main {
+	width: 			100%;
+	margin:			0 auto;
+}
+
+#gallery {
+	width: 			100%;
+	padding:		0em;
+	margin: 		0 auto;	
+}
+
+.photo {
+	padding: .8%;
+	width: 31.5%;
+    -webkit-transition-duration: 0.8s;
+       -moz-transition-duration: 0.8s;
+        -ms-transition-duration: 0.8s;
+         -o-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+}
+
+.large {
+	width: 64.6%;
+	padding: .8%;
+}
+
+.photo:hover {
+	opacity:		0.6	;
+}
+
+.photo img { width: 100.5%; 
+}
+
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/* @media screen and (min-width: 30em) and (max-width: 63.236em) { */
+@media screen and (min-width: 63.236em) {
+
+.photo {
+	padding: .5%;
+	width: 18.95%;
+}
+.large {
+	padding: .5%;
+	width: 38.9%;
+}
+	
+}
